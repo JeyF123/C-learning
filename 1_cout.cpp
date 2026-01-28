@@ -2,7 +2,7 @@
 /*cout gibt Text in der Konsole aus*/
 
 #include <iostream>
-using std::cout;
+using std::cout; //verhindert, dass man std:: schreiben muss.
 
 
 int main (){
