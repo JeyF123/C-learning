@@ -1,5 +1,5 @@
-Features: (Dieses Wort in Deutsch: Fähigkeiten?)
-========= 
+Fähigkeiten
+--- 
 -Buchungen: Datum, Buchungstext, Betrag.
 -Suchfunktion
 -Dateieinträge
@@ -11,4 +11,4 @@ Features: (Dieses Wort in Deutsch: Fähigkeiten?)
 
 
 Aufbau:
-======= (Diese Linien, in einer einfacheren Form immer "gleich" lang und nicht als "=" [max drei am Steuck, wenn es ein "=" sein muss] wegen der Programmgeschwindigkeit?)
+---
