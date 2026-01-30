@@ -5,3 +5,5 @@ https://chatgpt.com/share/697cc96c-1f08-8001-81a0-e571a2187a0a
 G: Erkenntnis. Switch-Anweisungen wissen nichts von einander. Ich versuche ohne KI auszukommen, aber Verständnisfragen sind erlaubt.
 Sie meint map wäre am Anfang zu kompliziert und schlägt einen Vektor vor. Vorläufig mag ich aber map noch nicht aufgeben. Es kommt mir
 mit [Schlüssel, wert] richtig vor. 
+
+G: Hab überlegt, evtl. doch alle Einträge gemeinsam in eine Klasse zu stecken. Glaube, das wäre übersichtlicher.
