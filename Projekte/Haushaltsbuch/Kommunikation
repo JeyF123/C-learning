@@ -6,4 +6,4 @@ G: Erkenntnis. Switch-Anweisungen wissen nichts von einander. Ich versuche ohne 
 Sie meint map wäre am Anfang zu kompliziert und schlägt einen Vektor vor. Vorläufig mag ich aber map noch nicht aufgeben. Es kommt mir
 mit [Schlüssel, wert] richtig vor. 
 
-G: Hab überlegt, evtl. doch alle Einträge gemeinsam in eine Klasse zu stecken. Glaube, das wäre übersichtlicher.
+G: Hab überlegt, evtl. doch alle Einträge gemeinsam in eine Klasse zu stecken. Glaube, das wäre übersichtlicher. main1.cpp
