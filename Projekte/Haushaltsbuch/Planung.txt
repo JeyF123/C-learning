@@ -1,5 +1,9 @@
 Features:
 =========
+-Buchungen: Datum, Buchungstext, Betrag.
+-Suchfunktion
+-Dateieinträge
+-Auswahlmenü für die Navigation
 
 
 
