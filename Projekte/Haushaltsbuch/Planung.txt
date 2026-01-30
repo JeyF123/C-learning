@@ -7,8 +7,9 @@ Fähigkeiten
 
 
 
-
-
-
 Aufbau:
 ---
+-Buchungen via Map, Klasse=Datum und Buchungstext, Betrag = float.
+-Suchfunktion via forschleife
+-Dateieinträge als einfache Datenbankstruktur, Format wie er durch map geschrieben wird.
+-Auswahlmenü via switch
