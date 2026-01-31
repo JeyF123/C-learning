@@ -11,11 +11,19 @@ private:
     float betrag;
 public:
     Buchung (std::string p_datum,std::string p_text, float b_betrag):datum(p_datum),text(p_text),betrag(b_betrag){
+
+
     }
 
     void zeigeBuchung(){
         std::cout << datum << " " << " " << text << " " << betrag << "\n";
     }
+
+    bool sucheText(const std::string& textsuche) {
+        return text == textsuche;
+    }
+
+
 
 };
 
@@ -45,7 +53,9 @@ int main(){
     int auswahl;
     std::cin >> auswahl;
 
+
     switch (auswahl){
+
 
         case 1:
 {
@@ -73,15 +83,26 @@ int main(){
             std::cout << "Anzahl Buchungen: " << alleBuchungen.size() << "\n";
             for(Buchung x : alleBuchungen){
                 x.zeigeBuchung();
-
             }
 
 
 
 
             break;
-        case 3:
-            std::cout << "{Buchungen suchen}";
+        case 3:{
+            clearScreen();
+            std::cout << "Bitte den Suchbegriff eingeben: ";
+            std::string benutzersuche;
+            std::cin.ignore();
+            std::getline(std::cin, benutzersuche);
+            for(Buchung x : alleBuchungen){
+                x.sucheText(benutzersuche);
+            }
+    }
+
+
+
+
             break;
         case 4:
             std::cout << "{Programm beenden}";
