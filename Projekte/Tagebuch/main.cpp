@@ -18,12 +18,13 @@ public:
         std::cout << "Bitte gib den Text ein: ";
         std::getline(std::cin, text);
     }
-
     void ausgabe() {
         std::ofstream datei("Tagebuch.txt", std::ios::app);
+
         for (char &x : text) {
             x += 37;
         }
+
         datei << datum << "\n" << text << "\n\n";
     }
 
@@ -33,6 +34,11 @@ public:
         std::ifstream file(dateiname);
 
         while (std::getline(file, datum)) {
+
+            if (datum.empty()) {
+                continue;   // Leerzeile überspringen
+            }
+
             std::getline(file, text);
 
             for (char &x : text) {
@@ -43,6 +49,8 @@ public:
             std::cout << text << "\n\n";
         }
     }
+
+
 };
 
 void menue(int x){
