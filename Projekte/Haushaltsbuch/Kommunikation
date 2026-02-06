@@ -7,3 +7,8 @@ Sie meint map wäre am Anfang zu kompliziert und schlägt einen Vektor vor. Vorl
 mit [Schlüssel, wert] richtig vor. 
 
 G: Hab überlegt, evtl. doch alle Einträge gemeinsam in eine Klasse zu stecken. Glaube, das wäre übersichtlicher. main1.cpp
+
+
+A: Lass dich nicht vom Map abbringen! Das hoert sich Gut an, auch wenn ich nur Bahnhof verstehe. 
+A: Gestern dachte ich mir, koennte ich nen Kernel fuer das Haushaltsbuch schreiben, wenn ich alle Parameter drum herum kenne. So wie beim Musik Spieler! Das war Einfach sogar.
+A: Deine Datenbankarbeiten kann ich ja immer als Schnittstelle einfuegen, damit wir das von Anfang an Getrennt, aber sehr Gut ineinander greifend bauen lernen?
